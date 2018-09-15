@@ -1,0 +1,38 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "basic boilerplate with Restful API , basic error handle, process, system message",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "antd": "3.8.4",
+    "antd-mobile": "2.2.3",
+    "immutable": "3.8.2",
+    "react": "16.3.2",
+    "react-device-detect": "1.5.9",
+    "react-dom": "16.3.2",
+    "react-frame-component": "4.0.1",
+    "react-prop-types": "0.4.0",
+    "react-redux": "5.0.7",
+    "react-router": "latest",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "16.4.2",
+    "recompose": "0.28.2",
+    "redux": "latest",
+    "redux-api-middleware": "2.3.0",
+    "redux-devtools-extension": "2.13.5",
+    "redux-immutable": "4.0.0",
+    "redux-saga": "0.16.0",
+    "styled-components": "3.4.5",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  }
+}
